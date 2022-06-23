@@ -15,7 +15,7 @@
       "photo_url": "https://api.predic8.de/shop/products/10/photo",
       "description": "Oranges are a type of low calorie, highly nutritious citrus fruit. As part of a healthful and varied diet, oranges contribute to strong, clear skin and can help lower a persons risk of many condition",
       "benefits": "oranges contain a range of other plant compounds and antioxidants that may reduce inflammation and work against disease.",
-      "risks": "People with gastroesophageal reflux disease may experience an increase in symptoms such as heartburn and regurgitation when consuming citrus fruits. This is due to their high acid content"
+      "risk": "People with gastroesophageal reflux disease may experience an increase in symptoms such as heartburn and regurgitation when consuming citrus fruits. This is due to their high acid content"
     },
     {
       "id": "2",
@@ -24,7 +24,7 @@
       "photo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsE0ZG_KSxdkGOr_29CdbuUHAb8IG79beJTQ&usqp=CAU",
       "description": "Pineapple (Ananas comosus) is an incredibly delicious, healthy tropical fruit. Its packed with nutrients, antioxidants, and other helpful compounds, such as enzymes that can protect against inflammation and disease. Its commonly eaten baked, grilled, or freshly cut.Originating in South America, it was named by early European colonizers for its resemblance to a pine cone",
       "benefits": "This fruit is particularly rich in vitamin C and manganese. Vitamin C is essential for immune health, iron absorption, and growth and development, while manganese offers antioxidant properties and aids in growth and metabolism. Pineapples are a rich source of antioxidants that may reduce your risk of ailments such as heart disease, diabetes, and certain cancers. Pineapples contain bromelain, a group of digestive enzymes that may help break down protein and aid digestion. Pineapples have anti-inflammatory properties that may help enhance your immune function. Bromelain in pineapples may reduce the inflammation, swelling, and discomfort that occurs after surgery. Its anti-inflammatory properties may also aid recovery after strenuous exercise",
-      "risks": "Pineapple is widely considered safe, though a small percentage of people may have an allergy to it. People who have diabetes or take blood thinners should be mindful of portion sizes when eating pineapple"
+      "risk": "Pineapple is widely considered safe, though a small percentage of people may have an allergy to it. People who have diabetes or take blood thinners should be mindful of portion sizes when eating pineapple"
     },
     {
       "id": "3",
@@ -33,7 +33,7 @@
       "photoUrl": "https://media.istockphoto.com/photos/gala-apples-for-sale-at-a-farmers-market-picture-id1341080989?b=1&k=20&m=1341080989&s=170667a&w=0&h=_cm7ppfexa3KV3L2LgEQpsNqc0HVFoN5-no_ABR4zfo=",
       "description": "An apple is a crunchy, bright-colored fruit, one of the most popular in the United States. Many types of apples are grown in the U.S., but a small percentage of the ones you can buy in grocery stores are imported. Each type of apple has a different shape, color, and texture. An apple can be sweet or sour, and its flavor can vary depending on what type you are eating.",
       "benefits": "Apples are a good source of fiber and vitamin C. They also contain antioxidants, like vitamin E, and polyphenols that contribute to the fruits numerous health benefits. Apples promote heart health in several ways. They are high in soluble fiber, which helps lower cholesterol. They also have polyphenols, which are linked to lower blood pressure and stroke risk. Apples are particularly filling due to their high fiber and water content. Their polyphenols may also have anti-obesity effects. Eating apples is linked to a lower risk of type 2 diabetes, potentially due to their polyphenol content. Apples contain antioxidant and anti-inflammatory compounds that may help regulate immune responses and protect against asthma.",
-      "risks": "Apple seeds contain cyanide. Swallowing whole seeds is unlikely to cause harm, but chewing and swallowing a large number of apple seeds could be dangerous"
+      "risk": "Apple seeds contain cyanide. Swallowing whole seeds is unlikely to cause harm, but chewing and swallowing a large number of apple seeds could be dangerous"
     },
 
     {
@@ -43,6 +43,6 @@
       "photoUrl": "https://cdn.shopify.com/s/files/1/0018/8327/5325/products/passionfruit.jpg?v=1587107259",
       "description": "Passion fruit is a tropical fruit grown all over the world. It has a hard, colorful rind and juicy, seed-filled center. Purple and yellow varieties are the most common.",
       "benefits": "Passion fruit pulp contains a lot of dietary fiber. Eating passion fruit regularly may help to prevent constipation and improve digestion and overall health. Passion fruit is a tropical fruit that has a low glycemic index (GI) value. This means that it does not cause a steep increase in blood sugar after eating it, making it a good option for people with diabetes. Eating passion fruit may help to normalize blood pressure",
-      "risks": "some of the plant proteins in the fruit have a structure similar to that of latex proteins, which can trigger an allergic reaction in some people. Purple passion fruit skin may also contain chemicals called cyanogenic glycosides. These can combine with enzymes to form the poison cyanide and are potentially poisonous in large amounts"
+      "risk": "some of the plant proteins in the fruit have a structure similar to that of latex proteins, which can trigger an allergic reaction in some people. Purple passion fruit skin may also contain chemicals called cyanogenic glycosides. These can combine with enzymes to form the poison cyanide and are potentially poisonous in large amounts"
     }
   ] 
