@@ -1,5 +1,4 @@
-{
-  "fruits": [
+ [
     {
       "id": "0",
       "name": "Bananas",
@@ -46,5 +45,4 @@
       "benefits": "Passion fruit pulp contains a lot of dietary fiber. Eating passion fruit regularly may help to prevent constipation and improve digestion and overall health. Passion fruit is a tropical fruit that has a low glycemic index (GI) value. This means that it does not cause a steep increase in blood sugar after eating it, making it a good option for people with diabetes. Eating passion fruit may help to normalize blood pressure",
       "risks": "some of the plant proteins in the fruit have a structure similar to that of latex proteins, which can trigger an allergic reaction in some people. Purple passion fruit skin may also contain chemicals called cyanogenic glycosides. These can combine with enzymes to form the poison cyanide and are potentially poisonous in large amounts"
     }
-  ]
-}
+  ] 
