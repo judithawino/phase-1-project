@@ -40,6 +40,10 @@ const fruitList=function(fruitobj){
     span.textContent=fruitobj.name
     ul.appendChild(span)
 
+    span.addEventListener('click',()=>{
+        firstFruitData(fruitobj)
+    })
+
 
 }
 })
