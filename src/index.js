@@ -6,12 +6,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
     .then(data=>{
         firstFruitData(data[0])
         console.log('sucessfully fetched fruits object', data)
+        data.forEach((elements=>{fruitList(elements)
+        }))
 
     })
-
+let divName=document.getElementById('name')
     //creating a function to display the first fruit once the browser loads
 const firstFruitData=function(fruitobj){
-    let divName=document.getElementById('name')
+    
     let divOrigin=document.getElementById('origin')
     let divInfo=document.getElementById('fruit-info')
     let divBenefits=document.getElementById('benefits')    
@@ -29,5 +31,15 @@ const firstFruitData=function(fruitobj){
     paragraph.textContent=fruitobj.risk
     divRisks.appendChild(paragraph)
     image.src=fruitobj.photo_url
+}
+
+const fruitList=function(fruitobj){
+    let ul=document.getElementById('fruits')
+    let li=document.createElement('li')
+    li.setAttribute('id','list')
+    li.textContent=fruitobj.name
+    ul.appendChild(li)
+
+
 }
 })

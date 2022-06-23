@@ -1,3 +1,12 @@
+#fruits li {
+  font-size: 16px;
+  text-transform: uppercase;
+  
+  list-style-type: none;
+  margin: auto;
+  padding: 15px;
+
+}
 img{    
      
      
