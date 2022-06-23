@@ -1,16 +1,57 @@
-#fruits li {
+h1{
+    color:Red;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#list {
   font-size: 16px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
+  padding: 10px;  
+  height: 50%;
+  width: 8vw;
+  display: grid;
+  justify-content: center;
+  font-size: 3vh;
+  align-items: center;
+  border-radius: 2em;
+  border: 1px solid white;
+  color: aliceblue;
+  }
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: absolute; 
+  z-index: 1; 
+  top: 0;
+  left: 0;
+  background-color: #111; 
+  overflow-x:visible; 
+  padding-top: 20px;
+  overflow-y: scroll;
   
-  list-style-type: none;
-  margin: auto;
-  padding: 15px;
-
+  
+}
+#main-body{
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+#intro-paragraph{
+    font-family: Georgia, "Times New Roman", Times, serif;
+ 
+ color:black;
+ background-color: #FCEBB6;
+ text-align: center;
+ text-indent:5%;
+ 
 }
 img{    
      
-     
+     border-radius: 10px;
      max-width: 500px;
+     float: left;
+     height: 390px;
      
 }
 
@@ -18,26 +59,32 @@ img{
   background-color: #333;
   padding: 5px;
   color: white;
+  
 }
 #origin {
   background-color: #333;
   color: #3e8fde;
   padding: 0px 0px 5px 5px;
+  
 }
 #fruit-info, #benefits, #risks{
     padding-top: 15px;
-    background-color: rgb(63, 138, 63);   
+    background-color:#3e8fde;   
     padding-bottom: 30px;
+
+    
+    
 }
 
 #showing {
-    margin-left: 20%;
-    float: right;
+    margin-left: 1%;
+    
 }
 input[type=text] {
+    display: grid;
   width: 50%;
   height: 50%;
-  padding: 12px 20px;
+  padding: 12px;
   margin: 8px 0;
   box-sizing: border-box;
 }

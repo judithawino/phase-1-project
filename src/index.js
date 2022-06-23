@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     fetch('https://judithawino.github.io/phase-1-project/db.json')
     .then(response=>response.json())
     .then(data=>{
-        firstFruitData(data[0])
+        firstFruitData(data[4])
         console.log('sucessfully fetched fruits object', data)
         data.forEach((elements=>{fruitList(elements)
         }))
@@ -35,10 +35,10 @@ const firstFruitData=function(fruitobj){
 
 const fruitList=function(fruitobj){
     let ul=document.getElementById('fruits')
-    let li=document.createElement('li')
-    li.setAttribute('id','list')
-    li.textContent=fruitobj.name
-    ul.appendChild(li)
+    let span=document.createElement('span')
+    span.setAttribute('id','list')
+    span.textContent=fruitobj.name
+    ul.appendChild(span)
 
 
 }
