@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     fetch('https://judithawino.github.io/phase-1-project/db.json')
     .then(response=>response.json())
     .then(data=>{
-        firstFruitData(data[2])
+        firstFruitData(data[0])
         console.log('sucessfully fetched fruits object', data)
         data.forEach((elements=>{fruitList(elements)
         }))
@@ -71,10 +71,10 @@ const createNewFruit=function(){
          let newFruit = {
             name: e.target.fruit-name.value,
             origin: e.target.fruit-origin.value,
-            photo_url: e.target.photoUrl,
-            description: e.target.description,
-            benefits:e.target.benefit,
-            risks:e.target.risk
+            photo_url: e.target.photoUrl.value,
+            description: e.target.description.value,
+            benefits:e.target.benefit.value,
+            risks:e.target.risk.value
          }
 
         fetch('https://judithawino.github.io/phase-1-project/db.json', {
@@ -86,7 +86,7 @@ const createNewFruit=function(){
         body: JSON.stringify(newFruit)
 })
 .then(resp=>resp.json())
-//.then(fruit=>(fruit))     
+.then(fruit=>(fruit))     
 
         form.reset()
     })   
