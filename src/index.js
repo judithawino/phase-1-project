@@ -61,23 +61,6 @@ const submitComment=function(){
     })
     submitComment()
 }
-/*fetch("https://judithawino.github.io/phase-1-project/db.json", requestPostMethod)
-  .then(response => response.text())
-  .then(result => createNewFruit(result))
-  .catch(error => console.log('error', error));
-
-  const requestPostMethod = {
-  method: 'POST',
-  headers: myHeaders,
-  body: raw,
-  redirect: 'follow'}*/
-
-  let raw = JSON.stringify({
-    
-})
-
-
-
 
 const createNewFruit=function(){    
 
@@ -103,12 +86,10 @@ const createNewFruit=function(){
         body: JSON.stringify(newFruit)
 })
 .then(resp=>resp.json())
-.then(fruit=>(fruit))     
+//.then(fruit=>(fruit))     
 
         form.reset()
-    })
-
-   
+    })   
 }
  createNewFruit()
 });

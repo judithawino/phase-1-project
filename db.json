@@ -30,19 +30,19 @@
       "id": "3",
       "name": "Apples",
       "origin": "Spain",
+      "photoUrl": "https://media.istockphoto.com/photos/gala-apples-for-sale-at-a-farmers-market-picture-id1341080989?b=1&k=20&m=1341080989&s=170667a&w=0&h=_cm7ppfexa3KV3L2LgEQpsNqc0HVFoN5-no_ABR4zfo=",
       "photo_url": "https://media.istockphoto.com/photos/gala-apples-for-sale-at-a-farmers-market-picture-id1341080989?b=1&k=20&m=1341080989&s=170667a&w=0&h=_cm7ppfexa3KV3L2LgEQpsNqc0HVFoN5-no_ABR4zfo=",
       "description": "An apple is a crunchy, bright-colored fruit, one of the most popular in the United States. Many types of apples are grown in the U.S., but a small percentage of the ones you can buy in grocery stores are imported. Each type of apple has a different shape, color, and texture. An apple can be sweet or sour, and its flavor can vary depending on what type you are eating.",
       "benefits": "Apples are a good source of fiber and vitamin C. They also contain antioxidants, like vitamin E, and polyphenols that contribute to the fruits numerous health benefits. Apples promote heart health in several ways. They are high in soluble fiber, which helps lower cholesterol. They also have polyphenols, which are linked to lower blood pressure and stroke risk. Apples are particularly filling due to their high fiber and water content. Their polyphenols may also have anti-obesity effects. Eating apples is linked to a lower risk of type 2 diabetes, potentially due to their polyphenol content. Apples contain antioxidant and anti-inflammatory compounds that may help regulate immune responses and protect against asthma.",
       "risk": "Apple seeds contain cyanide. Swallowing whole seeds is unlikely to cause harm, but chewing and swallowing a large number of apple seeds could be dangerous"
-    },
-
-    {
+    },{
       "id": "4",
       "name": "PassionFruit",
       "origin": "America",
+      "photoUrl": "https://cdn.shopify.com/s/files/1/0018/8327/5325/products/passionfruit.jpg?v=1587107259",
       "photo_url": "https://cdn.shopify.com/s/files/1/0018/8327/5325/products/passionfruit.jpg?v=1587107259",
       "description": "Passion fruit is a tropical fruit grown all over the world. It has a hard, colorful rind and juicy, seed-filled center. Purple and yellow varieties are the most common.",
       "benefits": "Passion fruit pulp contains a lot of dietary fiber. Eating passion fruit regularly may help to prevent constipation and improve digestion and overall health. Passion fruit is a tropical fruit that has a low glycemic index (GI) value. This means that it does not cause a steep increase in blood sugar after eating it, making it a good option for people with diabetes. Eating passion fruit may help to normalize blood pressure",
       "risk": "some of the plant proteins in the fruit have a structure similar to that of latex proteins, which can trigger an allergic reaction in some people. Purple passion fruit skin may also contain chemicals called cyanogenic glycosides. These can combine with enzymes to form the poison cyanide and are potentially poisonous in large amounts"
     }
-  ] 
+  ]
