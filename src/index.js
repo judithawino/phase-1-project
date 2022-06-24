@@ -4,12 +4,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
     fetch('https://judithawino.github.io/phase-1-project/db.json')
     .then(response=>response.json())
     .then(data=>{
-        firstFruitData(data[4])
+        firstFruitData(data[0])
         console.log('sucessfully fetched fruits object', data)
         data.forEach((elements=>{fruitList(elements)
         }))
 
-    })
+    })    
+
 let divName=document.getElementById('name')
     //creating a function to display the first fruit once the browser loads
 const firstFruitData=function(fruitobj){
@@ -43,7 +44,61 @@ const fruitList=function(fruitobj){
     span.addEventListener('click',()=>{
         firstFruitData(fruitobj)
     })
-
-
 }
+const submitComment=function(){
+    let commentsForm=document.getElementById('comments-form')
+    commentsForm.addEventListener('submit', (event)=>{
+        console.log(event)
+        event.preventDefault()
+        let inputComment=document.getElementById('input')
+        let p=document.createElement('p')
+        p.textContent=inputComment
+         text.style.color = "red"
+         inputComment.append(p)
+         form.reset()
+
+
+    })
+    submitComment()
+}
+fetch("https://judithawino.github.io/phase-1-project/db.json", requestPostMethod)
+  .then(response => response.text())
+  .then(result => createNewFruit(result))
+  .catch(error => console.log('error', error));
+
+  const requestPostMethod = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'}
+
+  let raw = JSON.stringify({
+    "name": "",
+    "origin": "",
+    "photo_url": "",
+    "description": "",
+    "benefits":"",
+    "risks":""
 })
+
+const createNewFruit=function(fruitobj){
+    let myHeaders = new Headers();
+    myHeaders.append("Content-Type", "application/json");
+
+    let form=document.querySelector('form')
+
+    
+}});
+
+
+
+
+
+
+
+
+
+
+
+
+
