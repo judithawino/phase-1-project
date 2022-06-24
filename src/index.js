@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     fetch('https://judithawino.github.io/phase-1-project/db.json')
     .then(response=>response.json())
     .then(data=>{
-        firstFruitData(data[0])
+        firstFruitData(data[2])
         console.log('sucessfully fetched fruits object', data)
         data.forEach((elements=>{fruitList(elements)
         }))
@@ -61,7 +61,7 @@ const submitComment=function(){
     })
     submitComment()
 }
-fetch("https://judithawino.github.io/phase-1-project/db.json", requestPostMethod)
+/*fetch("https://judithawino.github.io/phase-1-project/db.json", requestPostMethod)
   .then(response => response.text())
   .then(result => createNewFruit(result))
   .catch(error => console.log('error', error));
@@ -70,25 +70,59 @@ fetch("https://judithawino.github.io/phase-1-project/db.json", requestPostMethod
   method: 'POST',
   headers: myHeaders,
   body: raw,
-  redirect: 'follow'}
+  redirect: 'follow'}*/
 
   let raw = JSON.stringify({
-    "name": "",
-    "origin": "",
-    "photo_url": "",
-    "description": "",
-    "benefits":"",
-    "risks":""
+    
 })
 
-const createNewFruit=function(fruitobj){
-    let myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
+
+
+
+const createNewFruit=function(){    
 
     let form=document.querySelector('form')
+    form.addEventListener('submit', (e)=>{
+        console.log('successfully submited')
+        e.preventDefault()
+         let newFruit = {
+            name: e.target.fruit-name.value,
+            origin: e.target.fruit-origin.value,
+            photo_url: e.target.photoUrl,
+            description: e.target.description,
+            benefits:e.target.benefit,
+            risks:e.target.risk
+         }
 
-    
-}});
+        fetch('https://judithawino.github.io/phase-1-project/db.json', {
+        method: "POST",
+        headers: {
+        "Content-Type": "application/json", 
+        Accept:"application/json"
+        },
+        body: JSON.stringify(newFruit)
+})
+        /*let fruitName=document.getElementById('fruit-name').value
+        let fruitOrigin=document.getElementById('fruit-origin').value
+        let fruitImage=document.getElementById('photoUrl').value
+        let fruitInfo=document.getElementById('description').value
+        let fruitBenefit=document.getElementById('benefit').value
+        let fruitRisk=document.getElementById('risk').value
+
+        fruitName.textContent=fruitName
+        fruitOrigin.textContent=fruitOrigin
+        fruitImage.src=fruitImage
+        fruitInfo.textContent=fruitInfo
+        fruitBenefit.textContent=fruitBenefit
+        fruitRisk.textContent=fruitRisk*/
+
+        form.reset()
+    })
+
+   
+}
+ createNewFruit()
+});
 
 
 
