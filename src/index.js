@@ -102,19 +102,8 @@ const createNewFruit=function(){
         },
         body: JSON.stringify(newFruit)
 })
-        /*let fruitName=document.getElementById('fruit-name').value
-        let fruitOrigin=document.getElementById('fruit-origin').value
-        let fruitImage=document.getElementById('photoUrl').value
-        let fruitInfo=document.getElementById('description').value
-        let fruitBenefit=document.getElementById('benefit').value
-        let fruitRisk=document.getElementById('risk').value
-
-        fruitName.textContent=fruitName
-        fruitOrigin.textContent=fruitOrigin
-        fruitImage.src=fruitImage
-        fruitInfo.textContent=fruitInfo
-        fruitBenefit.textContent=fruitBenefit
-        fruitRisk.textContent=fruitRisk*/
+.then(resp=>resp.json())
+.then(fruit=>(fruit))     
 
         form.reset()
     })
